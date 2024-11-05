@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">StudentTuitionApp</string>
+    <string name="lecture_count">Lecture Count: %1$d</string>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/layout/quiz_item.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:padding="16dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="8dp">
+
+    <!-- Quiz Name -->
+    <TextView
+        android:id="@+id/tvQuizName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="#333333"
+        android:text="Quiz Name"/>
+
+    <!-- Separator Line -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#cccccc"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Password Entry Field -->
+    <EditText
+        android:id="@+id/etQuizPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Password"
+        android:inputType="textPassword"/>
+
+    <!-- Attempt Quiz Button -->
+    <Button
+        android:id="@+id/btnAttemptQuiz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Attempt Quiz"
+        android:textColor="#ffffff"
+        android:background="#e74c3c"
+        android:layout_marginTop="8dp"/>
+</LinearLayout>
